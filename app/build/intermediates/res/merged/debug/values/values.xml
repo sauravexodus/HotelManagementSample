@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/saurav/AndroidStudioProjects/RestaurantManager/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/saurav/AndroidStudioProjects/RestaurantManager/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="aboutus">abcd</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Restaurant Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="title_activity_amount">Amount</string>
+    <string name="title_activity_last">Last</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_mainpage">Mainpage</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menuscreen">Menuscreen</string>
+    <string name="title_activity_orderlist">Orderlist</string>
+    <string name="title_activity_orderscreen">Orderscreen</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <!-- From: file:/home/saurav/AndroidStudioProjects/RestaurantManager/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

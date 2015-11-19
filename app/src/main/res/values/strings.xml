@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Restaurant Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mainpage">Mainpage</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="aboutus">abcd</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menuscreen">Menuscreen</string>
+    <string name="title_activity_orderlist">Orderlist</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_amount">Amount</string>
+    <string name="title_activity_last">Last</string>
+    <string name="title_activity_orderscreen">Orderscreen</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+
+</resources>

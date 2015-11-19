@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/loginpage"
+    tools:context=".Register" >
+
+    <TextView
+        android:id="@+id/tvreg"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Register Here"
+        android:textColor="#191970"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvreg"
+        android:layout_below="@+id/tvreg"
+        android:layout_marginTop="36dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_alignTop="@+id/tvphone"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvname"
+        android:layout_below="@+id/etname"
+        android:layout_marginTop="31dp"
+        android:text="Mobile No." />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvphone"
+        android:layout_below="@+id/etphone"
+        android:layout_marginTop="22dp"
+        android:text="Email Id" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvemail"
+        android:layout_alignBottom="@+id/tvemail"
+        android:layout_alignLeft="@+id/etphone"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvname"
+        android:layout_alignBottom="@+id/tvname"
+        android:layout_alignRight="@+id/tvreg"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvemail"
+        android:layout_below="@+id/etemail"
+        android:layout_marginTop="39dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etemail"
+        android:layout_alignTop="@+id/tvaddress"
+        android:ems="10"
+        android:inputType="textPostalAddress" >
+
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/breg"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Register" />
+
+</RelativeLayout>

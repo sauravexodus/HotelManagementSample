@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+     android:background="@drawable/mainpage"
+    tools:context=".Mainpage" >
+
+    <TextView
+        android:id="@+id/tvfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:textColor="#20B2AA"
+        android:text="Food Point"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvfood"
+        android:layout_alignRight="@+id/tvfood"
+        android:layout_below="@+id/tvfood"
+        android:layout_marginTop="46dp"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/bOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bmenu"
+        android:layout_alignRight="@+id/bmenu"
+        android:layout_below="@+id/bmenu"
+        android:layout_marginTop="29dp"
+        android:text="Order" />
+
+    <Button
+        android:id="@+id/bAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bOrder"
+        android:layout_alignRight="@+id/bOrder"
+        android:layout_below="@+id/bOrder"
+        android:layout_marginTop="25dp"
+        android:text="About Us" />
+
+</RelativeLayout>

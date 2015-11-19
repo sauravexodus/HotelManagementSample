@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/loginpage"
+    tools:context=".Login" >
+
+    <TextView
+        android:id="@+id/tvn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvn"
+        android:layout_alignBottom="@+id/tvn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/blogin"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvmob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etn"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:text="Phone No." />
+
+    <EditText
+        android:id="@+id/etmob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvmob"
+        android:layout_alignBottom="@+id/tvmob"
+        android:layout_alignRight="@+id/etn"
+        android:layout_toRightOf="@+id/blogin"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvmob"
+        android:layout_below="@+id/etmob"
+        android:layout_marginTop="74dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/bregh"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/blogin"
+        android:layout_alignBottom="@+id/blogin"
+        android:layout_alignRight="@+id/etmob"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tvnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/blogin"
+        android:layout_below="@+id/blogin"
+        android:layout_toLeftOf="@+id/etmob"
+        android:gravity="center"
+        android:text="new user?" />
+
+    
+
+</RelativeLayout>
